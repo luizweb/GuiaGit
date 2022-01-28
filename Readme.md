@@ -28,7 +28,7 @@ O Github hospeda projetos que usam o Git.
 
 O Github trabalha com repositórios (diretórios/pastas onde são armazenados nossos projetos).
 
-![Repositórios](../images/repositories.png)
+![Repositórios](./images/repositories.png)
 
 Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor do mundo, criar e publicar um portifólio, também são funcionalidades do Github.
 
@@ -38,9 +38,9 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 
 **Comandos**
 
-![git init](../images/init.png)
+![git init](./images/init.png)
 
-![git init master](../images/init2.png)
+![git init master](./images/init2.png)
 
 
 ~~~bash
