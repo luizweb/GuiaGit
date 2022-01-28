@@ -1,4 +1,5 @@
 ### Passo a passo como usar o Git e o Github
+##
 
 **O que é o Git?**
 
@@ -12,13 +13,14 @@ Git é diferente de Github.
 
 Documentação de referência: https://git-scm.com/doc
 
+<br>
 
 
 **Instalação do Git**
 
 Site para download e instalação do Git: https://git-scm.com/
 
-
+<br>
 
 **O que é o Github?**
 
