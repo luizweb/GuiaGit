@@ -1,6 +1,6 @@
 ### Passo a passo como usar o Git e o Github
 
-** O que é o Git? **
+**O que é o Git?**
 
 O Git é um sistema de controle de versão de arquivos, principalmente utilizado em equipes de desenvolvimento de softwares. O controle de versão é muito importante quando várias pessoas estão editando o mesmo código em diferentes partes do arquivo ou do projeto, por exemplo.
 
@@ -14,13 +14,13 @@ Documentação de referência: https://git-scm.com/doc
 
 
 
-** Instalação do Git **
+**Instalação do Git**
 
 Site para download e instalação do Git: https://git-scm.com/
 
 
 
-** O que é o Github? **
+**O que é o Github?**
 
 O Github hospeda projetos que usam o Git.
 
