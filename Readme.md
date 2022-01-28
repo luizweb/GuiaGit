@@ -28,16 +28,31 @@ O Github hospeda projetos que usam o Git.
 
 O Github trabalha com repositórios (diretórios/pastas onde são armazenados nossos projetos).
 
-![Repositórios](./images/repositories.png)
+![Repositórios](../images/repositories.png)
 
 Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor do mundo, criar e publicar um portifólio, também são funcionalidades do Github.
 
 
+<br>
+<br>
 
+**Comandos**
+
+![git init](../images/init.png)
+
+![git init master](../images/init2.png)
 
 
 ~~~bash
 $ git push origin main
 ~~~
 
+
+
+
+
+**Links**
+
+Git Cheatsheet: https://ndpsoftware.com/git-cheatsheet.html
+Guia: https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
 
