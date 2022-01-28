@@ -53,6 +53,6 @@ $ git push origin main
 
 **Links**
 
-Git Cheatsheet: https://ndpsoftware.com/git-cheatsheet.html
+Git Cheatsheet: https://ndpsoftware.com/git-cheatsheet.html <br>
 Guia: https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
 
