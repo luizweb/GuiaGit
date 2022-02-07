@@ -38,16 +38,95 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 
 **Comandos**
 
+git init
 ![git init](./images/init.png)
+<br>
+<br>
 
-![git init master](./images/init2.png)
+(master)
+![git init (master)](./images/init2.png)
+<br>
+<br>
+
+git add
+![git add](./images/add.png)
+<br>
+<br>
+
+git add (all)
+![git add (all)](./images/addall.png)
+<br>
+<br>
+
+git status
+![git status](./images/status.png)
+<br>
+<br>
+
+git commit
+![git commit](./images/commit.png)
+<br>
+<br>
+
+git branch
+![git add (all)](./images/branchmain.png)
+<br>
+<br>
+
+git add (all)
+![git add (all)](./images/addall.png)
+<br>
+<br>
+
+git remote
+![git remote](./images/remote.png)
+<br>
+<br>
+
+git push
+![git push](./images/push.png)
+![git push](./images/push2.png)
+<br>
+<br>
+
+git checkout
+![git checkout](./images/checkout.png)
+![git checkout](./images/checkoutmain.png)
+<br>
+<br>
+
+git merge
+![git merge](./images/merge.png)
+<br>
+<br>
+
+git clone
+![git clone](./images/clone.png)
+<br>
+<br>
+
+git pull
+![git clone](./images/pull.png)
+<br>
+<br>
+
+remover
+![git rm](./images/remove.png)
+<br>
+<br>
 
 
+
+
+<!-- 
 ~~~bash
 $ git push origin main
 ~~~
+-->
 
 
+<br>
+<br>
 
 
 
