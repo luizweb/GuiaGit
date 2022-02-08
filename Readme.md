@@ -38,87 +38,81 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 
 **Comandos**
 
-git init
-
+git init <br>
 ![git init](./images/init.png)
+<br>
+<br>
 
 
-
-
-
-
-(master)
-
+(master)<br>
 ![git init (master)](./images/init2.png)
+<br>
+<br>
 
 
-
-
-
-
-git add
+git add <br>
 ![git add](./images/add.png)
 <br>
 <br>
 
-git add (all)
+git add (all)<br>
 ![git add (all)](./images/addall.png)
 <br>
 <br>
 
-git status
+git status <br>
 ![git status](./images/status.png)
 <br>
 <br>
 
-git commit
+git commit <br>
 ![git commit](./images/commit.png)
 <br>
 <br>
 
-git branch
+git branch <br>
 ![git add (all)](./images/branchmain.png)
 <br>
 <br>
 
-git add (all)
+git add (all) <br>
 ![git add (all)](./images/addall.png)
 <br>
 <br>
 
-git remote
+git remote <br>
 ![git remote](./images/remote.png)
 <br>
 <br>
 
-git push
+git push <br>
 ![git push](./images/push.png)
 ![git push](./images/push2.png)
 <br>
 <br>
 
-git checkout
+git checkout <br>
 ![git checkout](./images/checkout.png)
 ![git checkout](./images/checkoutmain.png)
 <br>
 <br>
 
-git merge
+git merge <br>
 ![git merge](./images/merge.png)
 <br>
 <br>
 
-git clone
+git clone <br>
 ![git clone](./images/clone.png)
 <br>
 <br>
 
-git pull
+git pull <br>
 ![git clone](./images/pull.png)
 <br>
 <br>
 
-remover
+remover <br>
 ![git rm](./images/remove.png)
 <br>
 <br>
