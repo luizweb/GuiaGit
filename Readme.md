@@ -3,11 +3,11 @@
 
 **O que é o Git?**
 
-O Git é um sistema de controle de versão de arquivos, principalmente utilizado em equipes de desenvolvimento de softwares. O controle de versão é muito importante quando várias pessoas estão editando o mesmo código em diferentes partes do arquivo ou do projeto, por exemplo.
+O Git é um sistema de controle de versão de arquivos, principalmente utilizado por equipes de desenvolvimento de softwares. O controle de versão é muito importante quando várias pessoas estão editando o mesmo código em diferentes partes do mesmo arquivo ou projeto, por exemplo.
 
-Mantém um histórico de qual alteração foi feita em um arquivo, quem alterou, quando e por que foi realizada essa alteração, para consultas futuras.
+O Git mantém um histórico de qual alteração foi feita em um arquivo, quem alterou, quando e por que foi realizada essa alteração, para consultas futuras.
 
-A instalação do Git é feita localmente no computador de cada desenvolvedor.
+A instalação do Git é feita localmente no computador.
 
 Git é diferente de Github.
 
@@ -28,8 +28,6 @@ O Github hospeda projetos que usam o Git.
 
 O Github trabalha com repositórios (diretórios/pastas onde são armazenados nossos projetos).
 
-![Repositórios](./images/repositories.png)
-
 Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor do mundo, criar e publicar um portifólio, também são funcionalidades do Github.
 
 
@@ -37,6 +35,51 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 <br>
 
 **Conceitos**
+
+__Repositório__: diretórios/pastas onde são armazenados os arquivos/projetos <br>
+![Repositórios](./images/repositories.png)
+<br>
+<br>
+
+__Branch__: ramificação a partir da linha cronológica principal durante o desenvolvimento de um sistema/projeto. 
+Linha cronológica do desenvolvimento. <br>
+![Branch](./images/branch1.png) <br>
+Por exemplo, você está desenvolvendo um site em Html e CSS. Você pode fazer uma ramificação para desenvolver só o cabeçalho (head), outra para fazer o corpo (body), outra para um segundo desenvolvedor fazer um botão etc. <br>
+No final, quando a funcionalidade da ramificação estiver pronta, podemos juntar (merge) a ramificação (branch) à linha do tempo do projeto principal (main/master).<br>
+![Branch](./images/branch2.png) <br>
+<br>
+<br>
+
+__Commit__: salva uma versão das alterações que foram feitas nos arquivos de um projeto. São as versões. “São os pontos na história”.
+<br>
+<br>
+
+__Merge__: junção da ramificação (branch) à linha do tempo do projeto principal (main/master).
+<br>
+<br>
+
+__Remote__: faz a conexão do repositório que está no meu computador com o _Github_.
+<br>
+<br>
+
+__Push__: 'Empurra' os arquivos do repositório local que já receberam o _commit_ e envia para o _Github_. Publica e cria uma versão no Github. “É o _commit_ para o _Github_”.
+<br>
+<br>
+
+__Pull__: o contrário do push. Ele 'puxa' o que está no repositório do Github para o seu computador.
+<br>
+<br>
+
+**Roteiro** (revisar)
+
+Roteiro:
+- criar uma pasta no computador com o nome do projeto
+- clicar com o botão direito dentro da pasta criada e clicar em “Abrir com Code”
+- criou um novo arquivo no VS Code chamado “Readme.md” (md é a extensão para markdown, linguagem de marcação) – o arquivo Read.me contem as instruções do projeto
+- editar o arquivo Read.me
+- Dentro da mesma pasta que foi criada para o projeto, clique com o botão direito do mouse e após em “Git Bash Here” para abrir o terminal “Git Bash”
+
+
 
 ![Staging Area](./images/stagingarea.png)
 
@@ -46,10 +89,10 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 
 **Comandos**
 
-git init <br>
+git init – inicializa um novo repositório vazio no branch principal (master) <br>
 ![git init](./images/init.png) <br>
+uma pasta oculta “.git” é criada no diretório (não apagar)<br>
 ![folder](./images/gitfolder.png) 
-<br>
 <br>
 
 
@@ -59,7 +102,8 @@ git init <br>
 <br>
 
 
-git add <br>
+git add 'nome do arquivo' – adiciona os arquivos para uma staging area (área de preparação).  OU
+git add . – adiciona todos os arquivos para a staging area <br>
 ![git add](./images/add.png)
 <br>
 <br>
@@ -69,14 +113,16 @@ git add (all)<br>
 <br>
 <br>
 
-git status <br>
+
+git status – mostra o status atual  <br>
 ![git status](./images/status.png)
 <br>
 <br>
 
-git commit <br>
+git commit -m 'mensagem' – salva a versão do arquivo com as últimas alterações. O parâmetro -m escreve uma mensagem/informação sobre o commit. <br>
 ![git commit](./images/commit.png)
 <br>
+Obs.: o Git tem mudado a nomenclatura do Branch principal. O padrão é “master”, mas pode aparecer também como “main”.
 <br>
 
 git branch <br>
