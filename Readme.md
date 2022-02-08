@@ -36,10 +36,19 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 <br>
 <br>
 
+**Conceitos**
+
+![Staging Area](./images/stagingarea.png)
+
+<br>
+<br>
+
+
 **Comandos**
 
 git init <br>
-![git init](./images/init.png)
+![git init](./images/init.png) <br>
+![folder](./images/gitfolder.png) 
 <br>
 <br>
 
@@ -71,7 +80,7 @@ git commit <br>
 <br>
 
 git branch <br>
-![git add (all)](./images/branchmain.png)
+![git branch](./images/branchmain.png)
 <br>
 <br>
 
@@ -88,6 +97,7 @@ git remote <br>
 git push <br>
 ![git push](./images/push.png)
 ![git push](./images/push2.png)
+![git push](./images/pushbranch.png)
 <br>
 <br>
 
