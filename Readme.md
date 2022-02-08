@@ -39,14 +39,22 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 **Comandos**
 
 git init
+
 ![git init](./images/init.png)
-<br>
-<br>
+
+
+
+
+
 
 (master)
+
 ![git init (master)](./images/init2.png)
-<br>
-<br>
+
+
+
+
+
 
 git add
 ![git add](./images/add.png)
