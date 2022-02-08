@@ -1,4 +1,4 @@
-### Passo a passo como usar o Git e o Github
+### Guia rápido de como usar o Git e o Github
 ##
 
 **O que é o Git?**
@@ -37,7 +37,7 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 **Conceitos**
 
 __Repositório__: diretórios/pastas onde são armazenados os arquivos/projetos <br>
-![Repositórios](./images/repositories.png)
+
 <br>
 <br>
 
@@ -70,18 +70,29 @@ __Pull__: o contrário do push. Ele 'puxa' o que está no repositório do Github
 <br>
 <br>
 
-**Roteiro** (revisar)
+**Roteiro e Comandos**
 
-Roteiro:
+Iniciando um novo projeto:
+
 - criar uma pasta no computador com o nome do projeto
-- clicar com o botão direito dentro da pasta criada e clicar em “Abrir com Code”
-- criou um novo arquivo no VS Code chamado “Readme.md” (md é a extensão para markdown, linguagem de marcação) – o arquivo Read.me contem as instruções do projeto
-- editar o arquivo Read.me
-- Dentro da mesma pasta que foi criada para o projeto, clique com o botão direito do mouse e após em “Git Bash Here” para abrir o terminal “Git Bash”
+- clicar com o botão direito dentro da pasta criada e clicar em “Abrir com Code” (neste exemplo, usarei o VSCode)
+
+![Abrir com Code](./images/abrircode.png)
+
+- criar e editar um novo arquivo no VSCode chamado “Readme.md” (md é a extensão para markdown, linguagem de marcação) – o arquivo Readme.md contém uma descrição com as instruções do novo projeto
+
+![Readme](./images/codereadme.png)
+
+- Dentro da mesma pasta do projeto, clique com o botão direito do mouse e após em “Git Bash Here” para abrir o terminal “Git Bash”
+
+![Git Bash](./images/gitbashhere.png)
+
+- O terminal do Git é aberto
+
+![Git Bash](./images/gitbash.png)
 
 
 
-![Staging Area](./images/stagingarea.png)
 
 <br>
 <br>
@@ -89,7 +100,7 @@ Roteiro:
 
 **Comandos**
 
-git init – inicializa um novo repositório vazio no branch principal (master) <br>
+*git init* – inicializa um novo repositório vazio no branch principal (master) <br>
 ![git init](./images/init.png) <br>
 uma pasta oculta “.git” é criada no diretório (não apagar)<br>
 ![folder](./images/gitfolder.png) 
@@ -102,73 +113,95 @@ uma pasta oculta “.git” é criada no diretório (não apagar)<br>
 <br>
 
 
-git add 'nome do arquivo' – adiciona os arquivos para uma staging area (área de preparação).  OU
-git add . – adiciona todos os arquivos para a staging area <br>
+*git add 'nome do arquivo'* – adiciona os arquivos para uma staging area (área de preparação).  OU
+*git add .* – adiciona todos os arquivos para a staging area <br>
+
+![Staging Area](./images/stagingarea.png) <br>
+
 ![git add](./images/add.png)
 <br>
 <br>
 
-git add (all)<br>
 ![git add (all)](./images/addall.png)
 <br>
 <br>
 
 
-git status – mostra o status atual  <br>
+*git status* – mostra o status atual  <br>
 ![git status](./images/status.png)
 <br>
 <br>
 
-git commit -m 'mensagem' – salva a versão do arquivo com as últimas alterações. O parâmetro -m escreve uma mensagem/informação sobre o commit. <br>
+*git commit -m 'mensagem'* – salva a versão do arquivo com as últimas alterações. O parâmetro -m escreve uma mensagem/informação sobre o commit. <br>
 ![git commit](./images/commit.png)
 <br>
 Obs.: o Git tem mudado a nomenclatura do Branch principal. O padrão é “master”, mas pode aparecer também como “main”.
 <br>
 
-git branch <br>
+*git branch* - alterando o branch principal de 'master' para 'main'.<br>
+git branch -M 'novo_nome' – comando para renomear a Branch atual:
 ![git branch](./images/branchmain.png)
 <br>
 <br>
 
-git add (all) <br>
-![git add (all)](./images/addall.png)
-<br>
-<br>
+No Github, criar um repositório para que tudo o que estiver dentro do repositório (Git) no computador seja enviado para um repositório no Github. Assim, os arquivos do projeto ficam disponíveis no Github para serem visualizados e utilizados por outras pessoas da equipe ou outros usuários do Github. 
 
-git remote <br>
+Após fazer o login na sua conta do Github, entrar no menu do perfil e depois em “your repositories”. Clicar em "New" para criar um novo repositório:
+
+![Repositórios](./images/repositoriesnew.png)
+
+![Repositórios](./images/newrepositorie.png)
+
+Informe um nome para o repositório, defina se ele será Público ou Privado e depois clique em “Create Repository”.
+
+![Link](./images/linkgit.png)
+
+Copiar o link do repoisitório "https://github.com/*username*/*NovoProjeto.git*"
+
+No Git Bash novamente, agora vamos conectar o repositório do Git com o repositório do Github:
+
+
+*git remote add origin 'link.git'* - conexão do repositório local com o repositório do Github. Esse comando é executado só uma vez.<br>
 ![git remote](./images/remote.png)
 <br>
 <br>
 
-git push <br>
+*git push -u origin main* – o comando push envia os arquivos que receberam o commit no computador anteriormente.
+
+*git push origin main* 
+ <br>
 ![git push](./images/push.png)
 ![git push](./images/push2.png)
 ![git push](./images/pushbranch.png)
 <br>
 <br>
 
-git checkout <br>
+Atualize a página do Github. Os arquivo do projeto devem aparecer no repositório.
+
+
+
+*git checkout* <br>
 ![git checkout](./images/checkout.png)
 ![git checkout](./images/checkoutmain.png)
 <br>
 <br>
 
-git merge <br>
+*git merge* <br>
 ![git merge](./images/merge.png)
 <br>
 <br>
 
-git clone <br>
+*git clone* <br>
 ![git clone](./images/clone.png)
 <br>
 <br>
 
-git pull <br>
+*git pull* <br>
 ![git clone](./images/pull.png)
 <br>
 <br>
 
-remover <br>
+*remover* <br>
 ![git rm](./images/remove.png)
 <br>
 <br>
