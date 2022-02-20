@@ -1,4 +1,4 @@
-### Guia rápido de como usar o Git e o Github
+## Guia rápido de como usar o Git e o Github
 ##
 
 **O que é o Git?**
@@ -39,7 +39,6 @@ Compartilhar projetos, interagir e colaborar com outros desenvolvedores ao redor
 __Repositório__: diretórios/pastas onde são armazenados os arquivos/projetos <br>
 
 <br>
-<br>
 
 __Branch__: ramificação a partir da linha cronológica principal durante o desenvolvimento de um sistema/projeto. 
 Linha cronológica do desenvolvimento. <br>
@@ -50,7 +49,7 @@ No final, quando a funcionalidade da ramificação estiver pronta, podemos junta
 <br>
 <br>
 
-__Commit__: salva uma versão das alterações que foram feitas nos arquivos de um projeto. São as versões. “São os pontos na história”.
+__Commit__: salva uma versão das alterações que foram feitas nos arquivos de um projeto. São as versões. São os "pontos na história”.
 <br>
 <br>
 
@@ -58,15 +57,16 @@ __Merge__: junção da ramificação (branch) à linha do tempo do projeto princ
 <br>
 <br>
 
-__Remote__: faz a conexão do repositório que está no meu computador com o _Github_.
+__Remote__: faz a conexão do repositório que está no computador com o _Github_.
 <br>
 <br>
 
-__Push__: 'Empurra' os arquivos do repositório local que já receberam o _commit_ e envia para o _Github_. Publica e cria uma versão no Github. “É o _commit_ para o _Github_”.
+__Push__: 'Empurra' os arquivos do repositório local que já receberam o _commit_ e envia para o _Github_. Publica e cria uma versão no Github. “É o _commit_ do _Github_”.
 <br>
 <br>
 
 __Pull__: o contrário do push. Ele 'puxa' o que está no repositório do Github para o seu computador.
+<br>
 <br>
 <br>
 
