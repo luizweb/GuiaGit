@@ -3,7 +3,7 @@
 
 **O que é o Git?**
 
-O Git é um sistema de controle de versão de arquivos, principalmente utilizado por equipes de desenvolvimento de softwares. O controle de versão é muito importante quando várias pessoas estão editando o mesmo código em diferentes partes do mesmo arquivo ou projeto, por exemplo.
+O Git é um sistema de **controle de versão** de arquivos - *VCS (Version Control System)* - utilizado por equipes de desenvolvimento de softwares. O controle de versão é muito importante quando várias pessoas estão editando o mesmo código em diferentes partes do mesmo arquivo ou projeto, por exemplo.
 
 O Git mantém um histórico de qual alteração foi feita em um arquivo, quem alterou, quando e por que foi realizada essa alteração, para consultas futuras.
 
