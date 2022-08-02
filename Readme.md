@@ -134,6 +134,12 @@ Antes de qualquer interação com o git, você precisa informar quem é você pa
 ![git status](./images/status.png)
 <br>
 <br>
+Definições:<br>
+- *HEAD*: Estado atual do nosso código, ou seja, onde o Git os colocou
+- *Working Tree*: Local onde os arquivos realmente estão sendo armazenados e editados
+- *index*: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.
+<br>
+<br>
 
 *git commit -m 'mensagem'* – salva a versão do arquivo com as últimas alterações. O parâmetro -m escreve uma mensagem/informação sobre o commit. <br>
 ![git commit](./images/commit.png)
@@ -146,6 +152,9 @@ git branch -M 'novo_nome' – comando para renomear a Branch atual:
 ![git branch](./images/branchmain.png)
 <br>
 <br>
+
+*git log* - mostra o histórico das alterações que foram realizadas<br>
+*git log --oneline* - mostra o histórico das alterações de forma resumida em uma única linha<br>
 
 No Github, criar um repositório para que tudo o que estiver dentro do repositório (Git) no computador seja enviado para um repositório no Github. Assim, os arquivos do projeto ficam disponíveis no Github para serem visualizados e utilizados por outras pessoas da equipe ou outros usuários do Github. 
 
