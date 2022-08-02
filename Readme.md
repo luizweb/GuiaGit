@@ -155,6 +155,11 @@ git branch -M 'novo_nome' – comando para renomear a Branch atual:
 
 *git log* - mostra o histórico das alterações que foram realizadas<br>
 *git log --oneline* - mostra o histórico das alterações de forma resumida em uma única linha<br>
+*git log -p* - mostra o histórico detalhado<br>
+link com mais opções: https://devhints.io/git-log <br>
+obs.: para retornar do log, basta apertar a tecla 'q' para voltar "ao normal" em nossa linha de comando.<br>
+<br>
+<br>
 
 No Github, criar um repositório para que tudo o que estiver dentro do repositório (Git) no computador seja enviado para um repositório no Github. Assim, os arquivos do projeto ficam disponíveis no Github para serem visualizados e utilizados por outras pessoas da equipe ou outros usuários do Github. 
 
@@ -219,6 +224,8 @@ Atualize a página do Github. Os arquivo do projeto devem aparecer no repositór
 <br>
 
 
+*Ignorando Arquivos*<br>
+- Criar um arquivo chamado .gitignore e, com ele aberto, escrever quais arquivos ou pastas não devem ser monitorados pelo Git.
 
 
 <!-- 
