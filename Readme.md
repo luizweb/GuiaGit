@@ -112,6 +112,9 @@ uma pasta oculta “.git” é criada no diretório (não apagar)<br>
 <br>
 <br>
 
+Antes de qualquer interação com o git, você precisa informar quem é você para que ele armazene corretamente os dados do autor de cada uma das alterações no código.<br>
+*git config --local user.name "Seu nome aqui"*<br>
+*git config --local user.email "seu@email.aqui"*<br>
 
 *git add 'nome do arquivo'* – adiciona os arquivos para uma staging area (área de preparação).  OU
 *git add .* – adiciona todos os arquivos para a staging area <br>
