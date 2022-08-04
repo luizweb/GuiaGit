@@ -239,13 +239,16 @@ $ git push origin main
 <br>
 <br>
 Outros comandos: <br>
-- git init --bare  (cria um repositório vazio. repositório do git que só vai controlar as alterações, ou seja, não vai conter arquivos editados, só vai servir para armazenar as alterações)
-- git remote (lista todos repositórios remotos que meu repositório local conhece)
-- git remote add local d:/servidor (para criar um remote)
-- git remote -v (para ver detalhes da localidade)
-- git remote remove local (para remover)
-- git clone /d/servidor projeto
-- git remote rename origin local (renomeando um repositório de 'origin' para 'local')
+- git init --bare  (cria um repositório vazio. repositório do git que só vai controlar as alterações, ou seja, não vai conter arquivos editados, só vai servir para armazenar as alterações)<br>
+- git remote (lista todos repositórios remotos que meu repositório local conhece)<br>
+- git remote add local d:/servidor (para criar um remote)<br>
+- git remote -v (para ver detalhes da localidade)<br>
+- git remote remove local (para remover)<br>
+- git clone /d/servidor projeto<br>
+- git remote rename origin local (renomeando um repositório de 'origin' para 'local')<br>
+
+<br>
+<br>
 
 
 **Links**
