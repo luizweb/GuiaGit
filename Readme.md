@@ -183,7 +183,8 @@ No Git Bash novamente, agora vamos conectar o repositório do Git com o reposit�
 <br>
 <br>
 
-*git push -u origin main* – o comando push envia os arquivos que receberam o commit no computador anteriormente.
+*git push -u origin main* – o comando push envia os arquivos que receberam o commit no computador anteriormente.<br>
+Este "- u" significa que sempre que eu fizer o comando 'git push' e estiver no 'main' ele sempre vai enviar para este remote 'origin'.<br>
 
 *git push origin main* 
  <br>
