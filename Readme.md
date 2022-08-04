@@ -246,7 +246,8 @@ Outros comandos: <br>
 - git remote remove local (para remover)<br>
 - git clone /d/servidor projeto<br>
 - git remote rename origin local (renomeando um repositório de 'origin' para 'local')<br>
-
+- git rebase 'nome_do_branch' (traz todos os commits de uma branch para a master/main)<br> 
+- git log --graph (forma de ver o log de uma forma visual)
 <br>
 <br>
 
@@ -254,5 +255,8 @@ Outros comandos: <br>
 **Links**
 
 Git Cheatsheet: https://ndpsoftware.com/git-cheatsheet.html <br>
-Guia: https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
+Guia: https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/ <br>
+Vizualizing: http://git-school.github.io/visualizing-git/ <br>
+
+
 
