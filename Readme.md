@@ -247,16 +247,16 @@ Outros comandos: <br>
 - git clone /d/servidor projeto<br>
 - git remote rename origin local (renomeando um repositório de 'origin' para 'local')<br>
 - git rebase 'nome_do_branch' (traz todos os commits de uma branch para a master/main)<br> 
-- git log --graph (forma de ver o log de uma forma visual)
-- git restore *nome_do_arquivo (para descatar as alterações do arquivo antes do commit)
-- git reset HEAD *nome_do_arquivo (para descatar as alterações do arquivo antes do commit e depois do add)
-- git revert *numero_do_hash (desfaz um commit)
-- git stash (salva as alterações do arquivo para serem trabalhadas posteriormente sem dar um commit)
-- git stash list (lista todos os stash)
-- git stash pop (traz as alterações guardadas no stash e apaga o stash)
-- git diff *numero_do_hash1 *numero_do_hash2 (ver a diferença entre os commits)
-- git tag -a v0.1.0 (para criar uma tag no seu código)
-- git push origin v0.1.0 (para enviar esta tag para o GitHub)
+- git log --graph (forma de ver o log de uma forma visual)<br>
+- git restore *nome_do_arquivo (para descatar as alterações do arquivo antes do commit)<br>
+- git reset HEAD *nome_do_arquivo (para descatar as alterações do arquivo antes do commit e depois do add)<br>
+- git revert *numero_do_hash (desfaz um commit)<br>
+- git stash (salva as alterações do arquivo para serem trabalhadas posteriormente sem dar um commit)<br>
+- git stash list (lista todos os stash)<br>
+- git stash pop (traz as alterações guardadas no stash e apaga o stash)<br>
+- git diff *numero_do_hash1 *numero_do_hash2 (ver a diferença entre os commits)<br>
+- git tag -a v0.1.0 (para criar uma tag no seu código)<br>
+- git push origin v0.1.0 (para enviar esta tag para o GitHub)<br>
 <br>
 <br>
 
